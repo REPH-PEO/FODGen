@@ -59,9 +59,9 @@ def comparertf(self):
     # initial_dir = r"C:\Users\LABRADBM\Downloads\Local\YB\Python\FOD\I drive"
     base_dir = r"\\fabwebd5.net\neptune\DataConversion\Prod\Secondary"
     initial_dir = os.path.join(base_dir, entry1_value, "FOD")
-    FOLDER1 = os.path.join(initial_dir, entry2_value)
+    FOLDER1 = os.path.join(initial_dir, entry2_value, "MODIFIED")
     # FOLDER2 = os.path.join(initial_dir, entry1_value)
-    FOLDER2 = os.path.join(initial_dir)
+    FOLDER2 = os.path.join(initial_dir, "MODIFIED")
 
     # REPORT_DIR = os.path.join(initial_dir, entry1_value, "Report")
     REPORT_DIR = os.path.join(initial_dir, "Report")
