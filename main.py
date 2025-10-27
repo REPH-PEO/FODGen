@@ -105,7 +105,7 @@ class App(tk.Tk):
 
         entry1_frame = tk.Frame(entry_fields_frame, bg="#F7F7F8")
         entry1_frame.grid(row=0, column=0, padx=10, pady=2, sticky="w")
-        self.entry1_label = tk.Label(entry1_frame, text="Pub Number:", font=("Arial", 8), bg="#F7F7F8", fg="black", width=15)
+        self.entry1_label = tk.Label(entry1_frame, text="Pub No. (5-digits):", font=("Arial", 8), bg="#F7F7F8", fg="black", width=15)
         self.entry1_label.pack(side="left", padx=(5, 0))
         self.entry1 = tk.Entry(entry1_frame, width=15, font=("Arial", 8))
         self.entry1.pack(side="left", fill="x", expand=False)
